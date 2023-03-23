@@ -1,7 +1,7 @@
 
 :root {
     --padding-container: 100px 0;
-    --color-title: #001A49;
+    --color-title: pink;
 }
 
 body {
@@ -34,9 +34,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/computer.jpg');
+    background-color: #f9208c;
     background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
 }
 
@@ -450,7 +449,7 @@ body {
 /* Footer */
 
 .footer{
-    background-color: #1D293F;
+    background-color: #cd29e2;
 }
 
 .footer__title{
@@ -535,5 +534,121 @@ body {
 .footer__img{
     width: 30px;
 }
+/*Boton para agregar */
+.btn-todo {
+    border: 0;
+    background-color: rgb(8, 190, 245);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    
+    position: absolute;
+    right: 2.5rem;
+    bottom: 2.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-todo > span {
+    font-size: 5rem;
+    font-weight: 600;
+    color: #FFFFFF;
 
 
+}
+
+
+/* MODAL */
+.modal {
+    width: 80%;
+    height: 20rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+    border-bottom: 2px solid blueviolet;
+ border-right: 2px solid blueviolet;
+ border-top: 2px solid white;
+ border-left: 2px solid white;
+ transition-duration: 1s;
+ transition-property: border-top;
+
+ border-top: 2px solid blueviolet;
+ border-left: 2px solid blueviolet;
+ border-bottom: 2px solid rgb(238, 103, 238);
+ border-right: 2px solid rgb(238, 103, 238);
+ box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+    display: none;
+
+    flex-direction: column;
+}
+.activar {
+    display: flex;
+    transition: 0.5s;
+}
+
+.cerrar {
+    align-self: end;
+    font-size: 2rem;
+    margin: 1rem;
+}
+.caja-tados {
+    width: 80%;
+    background:#FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+    --clr-font-main: hsla(0 0% 20% / 100);
+    --btn-bg-1: hsla(194 100% 69% / 1);
+    --btn-bg-2: hsla(217 100% 56% / 1);
+    --btn-bg-color: hsla(360 100% 100% / 1);
+    --radii: 0.5em;
+    cursor: pointer;
+    padding: 0.9em 1.4em;
+    min-width: 120px;
+    min-height: 44px;
+    font-size: var(--size, 1rem);
+    font-family: "Segoe UI", system-ui, sans-serif;
+    font-weight: 500;
+    transition: 0.8s;
+    background-size: 280% auto;
+    background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+    border: none;
+    border-radius: var(--radii);
+    color: var(--btn-bg-color);
+    box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px rgba(175, 230, 255, 0.5), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+
+}
+.texto {
+    display: block;
+    height: 8rem;
+    margin-bottom: 1.5rem;
+    
+    font-size: 1.5rem;
+
+    outline: none;
+}
+
+.btn-crear-tarea {
+    box-shadow: 0px 4px 4px pink (0, 0, 0, 0.25);
+    width: 15rem;
+    height: 3rem;
+    align-self: center;
+
+    font-size: 2rem;
+    text-align: center;
+
+  
+}
