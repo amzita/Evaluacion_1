@@ -1,0 +1,34 @@
+.rj{
+    height: 25rem;
+    width: 30rem;
+    margin: 0.25rem;
+}
+.inicio{
+    font-size:x-large;
+    margin: 2rem;
+}
+tata{
+    text-decoration: none;
+    color: var(--color1);
+    cursor: auto;
+}
+.inicio, h3{
+    margin: 1.5rem;
+    margin-left: 5rem;
+    color: var(--color4);
+
+}
+
+.buton1{
+    margin-top: 2rem;
+    height: 4rem;
+    width: 10rem;
+    margin-left: 2rem;
+    background-color:var(--color9);
+    font-size: 2rem;
+    margin-left: 10rem;
+    
+}
+.buton1 p{
+    margin-left: 1.5rem;
+}

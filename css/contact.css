@@ -1,0 +1,76 @@
+.menu{
+  background-color: var(--color-texto3);
+  height: 2rem;
+  width: auto;
+}
+a{
+  text-decoration: none;
+  color: var(--color-texto2);
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+}
+.Jimin{
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+p{
+  margin-left: 1rem;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+.v{
+  width: auto;
+  height: 2rem;
+  background-color: var(--color-texto5);
+  margin: 0.5rem;
+}
+.van{
+  width: 36.5rem;
+  margin-left: 0.5rem;
+  height: 2rem;
+  background-color: var(--color-texto7);
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  margin-top: 2rem;
+  height: 30rem;
+  width: 36rem;
+  margin-left: 0.5rem;
+  background-color: var(--color-texto2);
+}
+
+.text{
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 3rem;
+}
+.Shooky{
+  text-align: center;
+  font-size: 1.5rem;
+}
+footer{
+  height: 15rem;
+  width: auto;
+  margin-top: 1rem;
+
+  background-color: var(--color-texto7);
+
+  display: flex;
+  flex-direction: row;
+
+}
+.tata{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  height: 6rem;
+  width: 32rem;
+  background-color: var(--color-texto8);
+}
+footer h3{
+  margin-top: 6rem;
+  margin-left: 0.5rem;
+}

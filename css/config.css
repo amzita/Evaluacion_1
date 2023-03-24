@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: rgb(224, 149, 51);
+    --color2: rgb(0, 255, 213);
+    --color3: rgb(204, 38, 66);
+    --color4: rgb(255, 255, 255);
+    --color5: rgb(162, 112, 202);
+    --color6: rgb(29, 25, 2);
+    --color7: rgb(224, 0, 149);
+    --color8: rgb(218, 188, 16);
+    --color9: rgb(16, 218, 50);
+}
+
+html, body {
+    font-size: 10px;
+    font-family: 'PT Serif', serif;
+}

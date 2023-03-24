@@ -1,17 +1,15 @@
-(function(){
-    const openButton = document.querySelector('.nav__menu');
-    const menu = document.querySelector('.nav__link');
-    const closeMenu = document.querySelector('.nav__close');
-
-    openButton.addEventListener('click', ()=>{
-        menu.classList.add('nav__link--show');
-    });
-
-    closeMenu.addEventListener('click', ()=>{
-        menu.classList.remove('nav__link--show');
-    });
-
+function seccion(){
+    let componentes =
     
+           `<div class="inicio">
+            <h3><a href="./home.html">home</a></h3>
+            <h3><a href="./abount.html">abount</a></h3>
+            <h3><a href="./contact.html">contact</a></h3>
+        </div>
+    <div class="buton1"> <p>Log in</p> </div>
+    <div class="buton1"> <p>Sing up</p> </div>`;
 
-
-})();
+  let menu_pr = document.querySelector(".chimmy");
+  menu_pr.innerHTML = componentes;
+}
+seccion();

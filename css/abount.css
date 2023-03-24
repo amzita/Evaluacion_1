@@ -1,0 +1,50 @@
+.menu{
+  background-color: var(--color5);
+  height: 2rem;
+  width: auto;
+}
+jk_1{
+  text-decoration: none;
+  color: var(--color-texto2);
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+}
+jk_2{
+  text-align: center;
+  font-size: 3rem;
+}
+.jk_4{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.jk_3{
+  background-color: var(--color7);
+  width: auto;
+  height: 20rem;
+}
+footer{
+  height: 15rem;
+  width: auto;
+  margin-top: 1rem;
+  background-color: var(--color9);
+  display: flex;
+  flex-direction: row;
+
+}
+.tata{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  height: 6rem;
+  width: 32rem;
+  background-color: var(--color6);
+}
+footer h3{
+  margin-top: 6rem;
+  margin-left: 0.5rem;
+}
+
+
+
+
+ 
+  
