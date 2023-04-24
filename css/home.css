@@ -1,59 +1,6 @@
-.cara{
-  width: auto;
-  height: 26rem;
-  background-color: var(--color9);
-}
-.mang{
-  height: 25rem;
-  width: 37.5rem;  
-}
-.cara h1{
-  position: absolute;
-  margin-top: 5rem;
-  font-size: 5rem;
-}
-.cara p{
-  margin-top: 12rem;
-  margin-left: 1rem;
-  position: absolute;
-}
-.dudu{
-text-align: center;
-margin: 2rem;
-}
-.cookye{
-  background-color: var(--color6);
-  width: auto;
-  height: 20rem;
-}
-.tete{
-  margin-left: 1rem;
-  font-size: 2rem;
-}
-.manz{
-  margin-left: 1rem;
-  font-size: 1rem;
-  margin: 1rem;
-}
-footer{
-  height: 15rem;
-  width: auto;
-  margin-top: 1rem;
-
-  background-color: var(--color5);
-
+.logo{
   display: flex;
-  flex-direction: row;
-
-}
-.tata{
-  margin-top: 2rem;
-  margin-left: 2rem;
-  height: 6rem;
-  width: 32rem;
-  background-color:var(--color7);
-}
-footer h3{
-  margin-top: 6rem;
-  margin-left: 0.5rem;
+  justify-content: center;
+  font-family:cursive;
+ 
 }

@@ -1,34 +1,48 @@
-.rj{
-  height: 15rem;
-  width: 25rem;
-  margin: 0.25rem;
+.icono{
+  margin-top: 1rem;
+  width: 30px;
+  height: 30px;
 }
-.inicio{
-  font-size:x-large;
-  margin: 2rem;
+.encabezado{
+  border: 1px solid black;
 }
-.rj{
-  text-decoration: none;
-  color: var(--color2);
-  cursor: auto;
+.titulo{
+  font-family:'Edu+NSW+ACT+Foundation', cursive ;
+  margin: 3px;
+  justify-content: right  
 }
-.inicio, h3{
-  margin: 1.5rem;
-  margin-left: 5rem;
-  color: var(--color6);
-
+.imagen{
+  border: 1px solid black;
+  margin: 15%;
+  display: flex;
+  justify-content: center;
 }
-
-.buton1{
-  margin-top: 2rem;
-  height: 4rem;
-  width: 10rem;
-  margin-left: 2rem;
-  background-color:var(--color8);
-  font-size: 2rem;
-  margin-left: 10rem;
-  
+.titulo2{
+  display: flex;
+  justify-content: center;
+  font-family:'Edu+NSW+ACT+Foundation', cursive ;
 }
-.buton1 p{
-  margin-left: 1.5rem;
+.texto2{
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+}
+.caja{
+  margin: 1%;
+  border: 1% solid black;
+}
+.pie_de_pagina{
+  border: 1px solid black;
+}
+.imagen2{
+  width: 200px;
+  height: 200px;
+}
+.menu{
+  margin: 10px;
+  border: 2px solid black;
+}
+.tata{
+  width: 100px;
+  height: 50px;
 }
